@@ -47,11 +47,13 @@ curl -X PUT "http://localhost:8000/hospital/doctor/set" -H 'Content-Type: applic
 
 
 ---GET Doctors by Id---
+
 http://localhost:8000/hospital/doctor/get/101
+
 http://localhost:8000/hospital/doctor/get/102
 
 
-Testing
+Testing 
 
 When "method /get/{doctorId} from mongodb executed "+Id  statement showing in console data is comming from Mongodb.
 other wise data is comming from redis inMemory server.
